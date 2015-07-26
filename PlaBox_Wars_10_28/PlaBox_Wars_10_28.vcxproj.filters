@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="graphic">
+      <UniqueIdentifier>{eb84ea54-bc12-4090-911b-0bb1897a190d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main">
+      <UniqueIdentifier>{05b31d13-eb9c-4036-a77d-67b490aed7e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scene">
+      <UniqueIdentifier>{a41243d1-46a5-469f-a6c6-2a2d92a37a89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scene\title">
+      <UniqueIdentifier>{bd54e6c5-c4cc-4837-adb1-344bf57fa53c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scene\logo">
+      <UniqueIdentifier>{ed1c1d3b-d501-4f30-9335-d02e394ae704}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scene\menu">
+      <UniqueIdentifier>{51de1826-dc89-4b99-bad6-2efdc7789cd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="input">
+      <UniqueIdentifier>{182ab986-9309-4e30-a92d-5e835bab679d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scene\menu\option">
+      <UniqueIdentifier>{ebedaf6b-bc1c-46d8-a985-05d065b9d766}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scene\menu\gallery">
+      <UniqueIdentifier>{503c6f41-68a6-4569-ab0e-46676260ac94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scene\menu\game">
+      <UniqueIdentifier>{59865d50-18d4-4a2a-b655-2e072fa5bbc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scene\menu\game\shot">
+      <UniqueIdentifier>{9c9dc29e-e17b-4e8b-9dc1-6c3746fcb8be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scene\menu\game\result">
+      <UniqueIdentifier>{9e03a025-ea14-4f63-a24d-1bf69cac378d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="camera">
+      <UniqueIdentifier>{75ad0de9-e8fe-4778-9f06-34e586e7f84d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scene\menu\game\enemy">
+      <UniqueIdentifier>{10d36584-0248-46ff-a815-ad91b9de12ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scene\menu\game\object">
+      <UniqueIdentifier>{dfa9b9ec-b81d-496d-80c2-0d45215ec3cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="audio">
+      <UniqueIdentifier>{89752983-c46b-4f4f-ba26-125984912213}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scene\menu\game\player">
+      <UniqueIdentifier>{1dccf8ba-b756-44e1-8480-5384c5250597}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="text">
+      <UniqueIdentifier>{3db5c059-ce6b-4d24-b650-4df529bdc467}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HitCheck">
+      <UniqueIdentifier>{4eb2d76a-4378-4d81-bb6e-9be4477c9d65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="graphic\effect">
+      <UniqueIdentifier>{f2c976af-ed7d-4433-bd89-6125219c35e0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source&amp;Header\game.cpp">
+      <Filter>scene\menu\game</Filter>
+    </ClCompile>
+    <ClCompile Include="Source&amp;Header\graphic.cpp">
+      <Filter>graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="Source&amp;Header\input.cpp">
+      <Filter>input</Filter>
+    </ClCompile>
+    <ClCompile Include="Source&amp;Header\main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="Source&amp;Header\scene.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Source&amp;Header\shot.cpp">
+      <Filter>scene\menu\game\shot</Filter>
+    </ClCompile>
+    <ClCompile Include="Source&amp;Header\gallery.cpp">
+      <Filter>scene\menu\gallery</Filter>
+    </ClCompile>
+    <ClCompile Include="Source&amp;Header\menu.cpp">
+      <Filter>scene\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Source&amp;Header\option.cpp">
+      <Filter>scene\menu\option</Filter>
+    </ClCompile>
+    <ClCompile Include="Source&amp;Header\result.cpp">
+      <Filter>scene\menu\game\result</Filter>
+    </ClCompile>
+    <ClCompile Include="Source&amp;Header\camera.cpp">
+      <Filter>camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Source&amp;Header\player.cpp">
+      <Filter>scene\menu\game\player</Filter>
+    </ClCompile>
+    <ClCompile Include="Source&amp;Header\enemy.cpp">
+      <Filter>scene\menu\game\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Source&amp;Header\object.cpp">
+      <Filter>scene\menu\game\object</Filter>
+    </ClCompile>
+    <ClCompile Include="Source&amp;Header\HitCheck.cpp">
+      <Filter>HitCheck</Filter>
+    </ClCompile>
+    <ClCompile Include="Source&amp;Header\Audio.cpp">
+      <Filter>audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Source&amp;Header\logo.cpp">
+      <Filter>scene\logo</Filter>
+    </ClCompile>
+    <ClCompile Include="Source&amp;Header\title.cpp">
+      <Filter>scene\title</Filter>
+    </ClCompile>
+    <ClCompile Include="Source&amp;Header\UI.cpp" />
+    <ClCompile Include="Source&amp;Header\gameover.cpp" />
+    <ClCompile Include="Source&amp;Header\TexCharacter.cpp">
+      <Filter>text</Filter>
+    </ClCompile>
+    <ClCompile Include="Source&amp;Header\TexString.cpp">
+      <Filter>text</Filter>
+    </ClCompile>
+    <ClCompile Include="Source&amp;Header\polygon.cpp">
+      <Filter>text</Filter>
+    </ClCompile>
+    <ClCompile Include="Source&amp;Header\effect.cpp">
+      <Filter>graphic\effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Source&amp;Header\effectMagager.cpp">
+      <Filter>graphic\effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Source&amp;Header\particle.cpp">
+      <Filter>graphic\effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Source&amp;Header\DebrisEffect.cpp">
+      <Filter>graphic\effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Source&amp;Header\ExplosionEffect.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source&amp;Header\game.h">
+      <Filter>scene\menu\game</Filter>
+    </ClInclude>
+    <ClInclude Include="Source&amp;Header\graphic.h">
+      <Filter>graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="Source&amp;Header\input.h">
+      <Filter>input</Filter>
+    </ClInclude>
+    <ClInclude Include="Source&amp;Header\main.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="Source&amp;Header\scene.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Source&amp;Header\shot.h">
+      <Filter>scene\menu\game\shot</Filter>
+    </ClInclude>
+    <ClInclude Include="Source&amp;Header\gallery.h">
+      <Filter>scene\menu\gallery</Filter>
+    </ClInclude>
+    <ClInclude Include="Source&amp;Header\menu.h">
+      <Filter>scene\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Source&amp;Header\option.h">
+      <Filter>scene\menu\option</Filter>
+    </ClInclude>
+    <ClInclude Include="Source&amp;Header\result.h">
+      <Filter>scene\menu\game\result</Filter>
+    </ClInclude>
+    <ClInclude Include="Source&amp;Header\camera.h">
+      <Filter>camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Source&amp;Header\Lib.h" />
+    <ClInclude Include="Source&amp;Header\player.h">
+      <Filter>scene\menu\game\player</Filter>
+    </ClInclude>
+    <ClInclude Include="Source&amp;Header\enemy.h">
+      <Filter>scene\menu\game\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Source&amp;Header\object.h">
+      <Filter>scene\menu\game\object</Filter>
+    </ClInclude>
+    <ClInclude Include="Source&amp;Header\HitCheck.h">
+      <Filter>HitCheck</Filter>
+    </ClInclude>
+    <ClInclude Include="Source&amp;Header\Audio.h">
+      <Filter>audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Source&amp;Header\logo.h">
+      <Filter>scene\logo</Filter>
+    </ClInclude>
+    <ClInclude Include="Source&amp;Header\title.h">
+      <Filter>scene\title</Filter>
+    </ClInclude>
+    <ClInclude Include="Source&amp;Header\UI.h" />
+    <ClInclude Include="Source&amp;Header\gameover.h" />
+    <ClInclude Include="Source&amp;Header\TexCharacter.h">
+      <Filter>text</Filter>
+    </ClInclude>
+    <ClInclude Include="Source&amp;Header\TexString.h">
+      <Filter>text</Filter>
+    </ClInclude>
+    <ClInclude Include="Source&amp;Header\polygon.h">
+      <Filter>text</Filter>
+    </ClInclude>
+    <ClInclude Include="Source&amp;Header\effectMagager.h">
+      <Filter>graphic\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Source&amp;Header\effect.h">
+      <Filter>graphic\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Source&amp;Header\particle.h">
+      <Filter>graphic\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Source&amp;Header\DebrisEffect.h">
+      <Filter>graphic\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Source&amp;Header\ExplosionEffect.h">
+      <Filter>graphic\effect</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

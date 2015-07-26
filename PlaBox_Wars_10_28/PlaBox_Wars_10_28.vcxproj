@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3EE0C1B7-149C-4A22-A99B-BA8969379E97}</ProjectGuid>
+    <RootNamespace>PlaBox_Wars_10_28</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\PlaBox_Wars.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\PlaBox_Wars.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Source&amp;Header\Audio.cpp" />
+    <ClCompile Include="Source&amp;Header\camera.cpp" />
+    <ClCompile Include="Source&amp;Header\DebrisEffect.cpp" />
+    <ClCompile Include="Source&amp;Header\effect.cpp" />
+    <ClCompile Include="Source&amp;Header\effectMagager.cpp" />
+    <ClCompile Include="Source&amp;Header\enemy.cpp" />
+    <ClCompile Include="Source&amp;Header\ExplosionEffect.cpp" />
+    <ClCompile Include="Source&amp;Header\gallery.cpp" />
+    <ClCompile Include="Source&amp;Header\game.cpp" />
+    <ClCompile Include="Source&amp;Header\gameover.cpp" />
+    <ClCompile Include="Source&amp;Header\graphic.cpp" />
+    <ClCompile Include="Source&amp;Header\HitCheck.cpp" />
+    <ClCompile Include="Source&amp;Header\input.cpp" />
+    <ClCompile Include="Source&amp;Header\logo.cpp" />
+    <ClCompile Include="Source&amp;Header\main.cpp" />
+    <ClCompile Include="Source&amp;Header\menu.cpp" />
+    <ClCompile Include="Source&amp;Header\object.cpp" />
+    <ClCompile Include="Source&amp;Header\option.cpp" />
+    <ClCompile Include="Source&amp;Header\particle.cpp" />
+    <ClCompile Include="Source&amp;Header\player.cpp" />
+    <ClCompile Include="Source&amp;Header\polygon.cpp" />
+    <ClCompile Include="Source&amp;Header\result.cpp" />
+    <ClCompile Include="Source&amp;Header\scene.cpp" />
+    <ClCompile Include="Source&amp;Header\shot.cpp" />
+    <ClCompile Include="Source&amp;Header\TexCharacter.cpp" />
+    <ClCompile Include="Source&amp;Header\TexString.cpp" />
+    <ClCompile Include="Source&amp;Header\title.cpp" />
+    <ClCompile Include="Source&amp;Header\UI.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source&amp;Header\Audio.h" />
+    <ClInclude Include="Source&amp;Header\camera.h" />
+    <ClInclude Include="Source&amp;Header\DebrisEffect.h" />
+    <ClInclude Include="Source&amp;Header\effect.h" />
+    <ClInclude Include="Source&amp;Header\effectMagager.h" />
+    <ClInclude Include="Source&amp;Header\enemy.h" />
+    <ClInclude Include="Source&amp;Header\ExplosionEffect.h" />
+    <ClInclude Include="Source&amp;Header\gallery.h" />
+    <ClInclude Include="Source&amp;Header\game.h" />
+    <ClInclude Include="Source&amp;Header\gameover.h" />
+    <ClInclude Include="Source&amp;Header\graphic.h" />
+    <ClInclude Include="Source&amp;Header\HitCheck.h" />
+    <ClInclude Include="Source&amp;Header\input.h" />
+    <ClInclude Include="Source&amp;Header\Lib.h" />
+    <ClInclude Include="Source&amp;Header\logo.h" />
+    <ClInclude Include="Source&amp;Header\main.h" />
+    <ClInclude Include="Source&amp;Header\menu.h" />
+    <ClInclude Include="Source&amp;Header\object.h" />
+    <ClInclude Include="Source&amp;Header\option.h" />
+    <ClInclude Include="Source&amp;Header\particle.h" />
+    <ClInclude Include="Source&amp;Header\player.h" />
+    <ClInclude Include="Source&amp;Header\polygon.h" />
+    <ClInclude Include="Source&amp;Header\result.h" />
+    <ClInclude Include="Source&amp;Header\scene.h" />
+    <ClInclude Include="Source&amp;Header\shot.h" />
+    <ClInclude Include="Source&amp;Header\TexCharacter.h" />
+    <ClInclude Include="Source&amp;Header\TexString.h" />
+    <ClInclude Include="Source&amp;Header\title.h" />
+    <ClInclude Include="Source&amp;Header\UI.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
